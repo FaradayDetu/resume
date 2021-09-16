@@ -1,0 +1,234 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[export]{adjustbox}
+
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{0.5\baselineskip}{\baselineskip}
+
+\usepackage{setspace}
+
+\doublespacing
+\onehalfspace
+\singlespace
+\spacing{0.8}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\hypersetup{
+  colorlinks,
+  allcolors=.,
+  urlcolor=blue,
+}
+
+\begin{document}
+
+%\includegraphics[width=0.3\textwidth]{IMG_20190718_155241_1.jpg}
+
+%----------HEADING-----------------
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\LARGE Alejandro Encalado Masia} & Email : \href{mailto:encalado.masia@gmail.com}{encalado.masia@gmail.com}\\
+  \\
+  \href{https://www.linkedin.com/in/alejandro-encalado-masia}{linkedin.com/in/alejandro-encalado-masia} & Mobile : +34 686 20 54 84 \\
+  \href{https://github.com/FaradayDetu}{GitHub/FaradayDetu}
+\end{tabular*}
+
+
+
+
+%\begin{tabular}[t]{@{}l}
+%\textbf{\LARGE Alejandro Encalado Masià} \\
+%  \\
+%  Mobile : +34 686 20 54 84 \\
+%  Email : \href{mailto:encalado.masia@gmail.com}{encalado.masia@gmail.com}\\
+%  \href{https://www.linkedin.com/in/alejandro-encalado-masia}{linkedin.com/in/alejandro-encalado-masia} \\
+%  \href{https://github.com/FaradayDetu}{GitHub/FaradayDetu} 
+%\end{tabular}
+%\hfill
+%\includegraphics[width=.2\textwidth,valign=t,frame]{pic.jpg}%
+\section{\textbf{About me}}
+%Former software developer in the financial sector interested in solving problems with data science and machine learning. Currently researching on autonomous driving using Deep Learning algorithms for computer vision at UAB. Skilled in several programming languages such as Python, R, C/C++, Bash, or Matlab.
+
+%I am a data scientist interested in solving problems for the financial sector. Experienced in software development for Banc Sabadell and in computer vision projects for autonomous driving using state-of-the-art deep learning algorithms at Universitat Autònoma de Barcelona.
+
+foo
+
+\newline
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Master in Mathematical Modelling}
+{Centre de Recerca Matemàtica}{Barcelona, Spain}{July 2019}
+\resumeItemListStart
+\item{\textbf{Data science specialization}}
+\item{Master thesis: Deep Learning models for depth estimation on autonomous vehicles. Scored with \textbf{9.8}}
+\resumeItemListEnd
+
+
+
+
+
+\resumeSubheading
+{Bachelor in Physics}
+{Universitat Autònoma de Barcelona}{Barcelona, Spain}{July 2018}
+\resumeItemListStart
+\item{Final degree project: Magnetic Diagnostics for LISA Pathfinder.}
+\item{Erasmus Mundus at $Universitetet\ i\ Bergen$, Norway}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+\newline
+%-----------EXPERIENCE-----------------
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Computer Architecture and Operating Systems Department - UAB}{Barcelona, Spain}
+{Deep Learning researcher - Intern}{March 2019 - July 2019}
+\resumeItemListStart
+\item{Deep learning researcher for CAOS (Computer Arquitecture and Operative Systems) departament from UAB. Involved in a project for depth estimation in real-time in the context of autonomous vehicles using deep learning models.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Better Consultants}{Barcelona, Spain}
+{Consultant}{March 2018 - January 2019}
+\resumeItemListStart
+\item{Software developer: Involved in technology services for Banc Sabadell. Experienced with COBOL and JCL.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{CSIC -  Institute of Space Sciences}{Barcelona, Spain}
+{Research Student}{January 2017 - September 2017}
+\resumeItemListStart
+
+\item{Lisa Pathfinder Project}
+      {Involved in magnetic diagnostics of Lisa Pathfinder using Bayesian Statistics and Markov chains.}
+
+
+\resumeItemListEnd
+
+%\resumeSubheading
+%  {Ferrovial}{Barcelona, Spain}
+%  {Telephone operator for SEM (061-112)}{September 2017 to March 2018}
+
+%\resumeSubheading
+%  {Rescatadores SL}{Estartit, Spain}
+%  {Coast Lifeguard}{Summers from 2014 to 2017}
+%  \resumeItemListStart
+%      \item{Experienced with team cooperation in risky situation.}
+%  \resumeItemListEnd
+
+\newline
+%-------COMPETITIONS AND EVENTS------------
+\section{Projects}
+\textbf{Data Science and Machine Learning}:
+\item{\href{https://github.com/FaradayDetu/DepthEstimation}{https://github.com/FaradayDetu/DepthEstimation} Master thesis report and repository of the project developed during the period as Deep Learning researcher}
+
+\item{\href{https://github.com/FaradayDetu/HouseholdsAndGqueries}{github.com/FaradayDetu/HouseholdsAndGqueries} Brief project showing the relationship between Google queries about households and the land price in Spain using statistical techniques.}
+
+
+
+\item{\href{https://github.com/FaradayDetu/GeneticAlgorithms}{github.com/FaradayDetu/GeneticAlgorithms}{ Solving N-Queen problem using genetic algorithms}. }
+%\item{\href{https://github.com/FaradayDetu/Google-Store-Kaggle-competition-}{github.com/FaradayDetu/Google-Store-Kaggle-competition-}{ G Store Customer revenue prediction}.}
+\item{\href{https://github.com/FaradayDetu/Treball-Final-de-Grau}{github.com/FaradayDetu/Treball-Final-de-Grau}{ Diagnòstics Magnètics al LISA Pathfinder}.}
+
+%\newpage
+\newline
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+
+%\textbf{Skills for Machine Learning and Data Science purposes.}
+\resumeSubHeadingListStart
+\item{
+            \textbf{Languages}{: Python, C, C++, Bash, Matlab, R, SQL, COBOL, JCL.}
+            \item{\textbf{OS}: Linux,Windows,z/OS.}    }
+\item{\textbf{Data Science frameworks}: Tensorflow, Tensor RT, Keras, Pandas, Scikit-learn, Seaborn, Apache Spark}
+
+
+\resumeSubHeadingListEnd
+
+
+\newline
+%-----------PROJECTS-----------------
+\section{Languages}
+Spanish (Native), Catalan (Native and C1), English (B2 Certification).
+
+
+%-------------------------------------------
+\end{document}
